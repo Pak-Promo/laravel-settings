@@ -1,8 +1,8 @@
 # Settings package for Laravel
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/SnippetCMS/snippet-settings.svg?style=flat-square)](https://packagist.org/packages/SnippetCMS/snippet-settings)
-[![Build Status](https://github.com/SnippetCMS/snippet-settings/actions/workflows/run-tests.yml/badge.svg)](https://github.com/SnippetCMS/snippet-settings/actions)
-[![Total Downloads](https://img.shields.io/packagist/dt/SnippetCMS/snippet-settings.svg?style=flat-square)](https://packagist.org/packages/SnippetCMS/snippet-settings)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/SnippetCMS/settings.svg?style=flat-square)](https://packagist.org/packages/SnippetCMS/settings)
+[![Build Status](https://github.com/SnippetCMS/settings/actions/workflows/run-tests.yml/badge.svg)](https://github.com/SnippetCMS/settings/actions)
+[![Total Downloads](https://img.shields.io/packagist/dt/SnippetCMS/settings.svg?style=flat-square)](https://packagist.org/packages/SnippetCMS/settings)
 
 This package allows you to save settings in DB & Cache. You can use helper function to get settings value anywhere in a Laravel project like SnippetCMS CMS.
 
@@ -17,7 +17,7 @@ This package allows you to save settings in DB & Cache. You can use helper funct
 Run the following command:
 
 ```bash
-composer require snippet/snippet-settings
+composer require snippetcms/snippet-settings
 ```
 
 ### 2. Publish
