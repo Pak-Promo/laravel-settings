@@ -1,0 +1,4 @@
+providers:
+  - Pak-Promo\SnippetSettings\SettingsServiceProvider
+migrations:
+  - database/migrations
