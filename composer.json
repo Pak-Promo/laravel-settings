@@ -1,5 +1,5 @@
 {
-    "name": "snippet/snippet-settings",
+    "name": "snippetcms/snippet-settings",
     "description": "SnippetCMS settings module for Laravel projects like SnippetCMS CMS",
     "type": "package",
     "license": "MIT",
