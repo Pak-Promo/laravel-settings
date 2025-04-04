@@ -1,6 +1,6 @@
 <?php
 
-namespace Snippet\SnippetSettings;
+namespace SnippetCMS\SnippetSettings;
 
 use Illuminate\Support\ServiceProvider;
 

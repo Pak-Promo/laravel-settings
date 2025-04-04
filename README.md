@@ -1,10 +1,10 @@
 # Settings package for Laravel
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/Snippet/snippet-settings.svg?style=flat-square)](https://packagist.org/packages/Snippet/snippet-settings)
-[![Build Status](https://github.com/Snippet/snippet-settings/actions/workflows/run-tests.yml/badge.svg)](https://github.com/Snippet/snippet-settings/actions)
-[![Total Downloads](https://img.shields.io/packagist/dt/Snippet/snippet-settings.svg?style=flat-square)](https://packagist.org/packages/Snippet/snippet-settings)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/SnippetCMS/snippet-settings.svg?style=flat-square)](https://packagist.org/packages/SnippetCMS/snippet-settings)
+[![Build Status](https://github.com/SnippetCMS/snippet-settings/actions/workflows/run-tests.yml/badge.svg)](https://github.com/SnippetCMS/snippet-settings/actions)
+[![Total Downloads](https://img.shields.io/packagist/dt/SnippetCMS/snippet-settings.svg?style=flat-square)](https://packagist.org/packages/SnippetCMS/snippet-settings)
 
-This package allows you to save settings in DB & Cache. You can use helper function to get settings value anywhere in a Laravel project like Snippet CMS.
+This package allows you to save settings in DB & Cache. You can use helper function to get settings value anywhere in a Laravel project like SnippetCMS CMS.
 
 * Database support
 * Helper function
@@ -25,7 +25,7 @@ composer require snippet/snippet-settings
 Publish config file.
 
 ```bash
-php artisan vendor:publish --provider="Snippet\SnippetSettings\SettingsServiceProvider" --tag=settings-config
+php artisan vendor:publish --provider="SnippetCMS\SnippetSettings\SettingsServiceProvider" --tag=settings-config
 ```
 
 ### 3. Preparing the database
@@ -33,7 +33,7 @@ php artisan vendor:publish --provider="Snippet\SnippetSettings\SettingsServicePr
 You need to publish the migration to create the media table:
 
 ```bash
-php artisan vendor:publish --provider="Snippet\SnippetSettings\SettingsServiceProvider" --tag=settings-migration
+php artisan vendor:publish --provider="SnippetCMS\SnippetSettings\SettingsServiceProvider" --tag=settings-migration
 ```
 
 After that, you need to run migrations.

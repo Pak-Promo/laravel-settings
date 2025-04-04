@@ -3,9 +3,9 @@
 if (!function_exists('setting')) {
 
     /**
-     * Get/Set Snippet setting.
+     * Get/Set SnippetCMS setting.
      *
-     * @return \Snippet\SnippetSettings\SettingHelper
+     * @return \SnippetCMS\SnippetSettings\SettingHelper
      */
     function setting()
     {

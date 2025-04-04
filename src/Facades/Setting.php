@@ -1,6 +1,6 @@
 <?php
 
-namespace Snippet\SnippetSettings\Facades;
+namespace SnippetCMS\SnippetSettings\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

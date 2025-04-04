@@ -4,7 +4,7 @@ return [
 
     /*
     | <----------------------->
-    |   Snippet Cache Contorl
+    |   SnippetCMS Cache Contorl
     | <----------------------->
     |
     | Enable/Disable cache.

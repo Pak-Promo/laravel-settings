@@ -1,6 +1,6 @@
 {
     "name": "snippet/snippet-settings",
-    "description": "Snippet settings module for Laravel projects like Snippet CMS",
+    "description": "SnippetCMS settings module for Laravel projects like SnippetCMS CMS",
     "type": "package",
     "license": "MIT",
     "authors": [
@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Snippet\\SnippetSettings\\": "src"
+            "SnippetCMS\\SnippetSettings\\": "src"
         },
         "files": [
             "src/snippet.php"
@@ -27,13 +27,13 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Snippet\\SnippetSettings\\Tests\\": "tests"
+            "SnippetCMS\\SnippetSettings\\Tests\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Snippet\\SnippetSettings\\SettingsServiceProvider"
+                "SnippetCMS\\SnippetSettings\\SettingsServiceProvider"
             ]
         }
     },

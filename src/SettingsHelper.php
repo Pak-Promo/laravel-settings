@@ -1,9 +1,9 @@
 <?php
 
-namespace Snippet\SnippetSettings;
+namespace SnippetCMS\SnippetSettings;
 
 use Illuminate\Support\Facades\Storage;
-use Snippet\SnippetSettings\Models\Setting;
+use SnippetCMS\SnippetSettings\Models\Setting;
 
 class SettingsHelper
 {

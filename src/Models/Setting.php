@@ -1,6 +1,6 @@
 <?php
 
-namespace Snippet\SnippetSettings\Models;
+namespace SnippetCMS\SnippetSettings\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
