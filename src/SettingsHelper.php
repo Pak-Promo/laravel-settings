@@ -1,6 +1,6 @@
 <?php
 
-namespace SnippetCMS\SnippetSettings;
+namespace PakPromo\LaravelSettings;
 
 use Illuminate\Support\Facades\Storage;
 use SnippetCMS\SnippetSettings\Models\Setting;

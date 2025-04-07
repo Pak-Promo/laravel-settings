@@ -1,6 +1,6 @@
 <?php
 
-namespace SnippetCMS\SnippetSettings;
+namespace PakPromo\LaravelSettings;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -15,7 +15,7 @@ class SettingsServiceProvider extends ServiceProvider
     {
         if (! app()->configurationIsCached()) {
             $this->mergeConfigFrom(
-                __DIR__.'/../config/settings.php', 'snippet-settings'
+                __DIR__.'/../config/settings.php', 'laravel-settings'
             );
         }
 
@@ -33,7 +33,7 @@ class SettingsServiceProvider extends ServiceProvider
     {
         if (app()->runningInConsole()) {
             $this->publishes([
-                __DIR__.'/../config/settings.php' => config_path('snippet-settings.php'),
+                __DIR__.'/../config/settings.php' => config_path('laravel-settings.php'),
             ], 'settings-config');
 
             $this->publishesMigrations([

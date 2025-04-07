@@ -4,7 +4,7 @@ return [
 
     /*
     | <----------------------->
-    |   SnippetCMS Cache Contorl
+    |   PakPromo Cache Contorl
     | <----------------------->
     |
     | Enable/Disable cache.
@@ -12,5 +12,5 @@ return [
     */
     'cache' => false,
 
-    'prefix' => 'snippet_settings_',
+    'prefix' => 'pakpromo_settings_',
 ];

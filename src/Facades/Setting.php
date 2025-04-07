@@ -1,6 +1,6 @@
 <?php
 
-namespace SnippetCMS\SnippetSettings\Facades;
+namespace PakPromo\LaravelSettings\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

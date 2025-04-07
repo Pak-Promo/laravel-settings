@@ -1,6 +1,6 @@
 <?php
 
-namespace SnippetCMS\SnippetSettings;
+namespace PakPromo\LaravelSettings;
 
 use Illuminate\Support\Facades\Cache;
 
@@ -14,7 +14,7 @@ trait CacheHelper
      */
     private function addPrefixToOption(string $option): string
     {
-        $prefix = config('snippet-settings.prefix');
+        $prefix = config('laravel-settings.prefix');
 
         return $prefix . $option;
     }
@@ -27,7 +27,7 @@ trait CacheHelper
      */
     public function getCache(string $option)
     {
-        if (!config('snippet-settings.cache')) {
+        if (!config('laravel-settings.cache')) {
             return;
         }
 
@@ -43,7 +43,7 @@ trait CacheHelper
      */
     public function setCache(string $option, $value)
     {
-        if (!config('snippet-settings.cache')) {
+        if (!config('laravel-settings.cache')) {
             return;
         }
 
@@ -58,7 +58,7 @@ trait CacheHelper
      */
     public function clearCache(string $option)
     {
-        if (!config('snippet-settings.cache')) {
+        if (!config('laravel-settings.cache')) {
             return;
         }
 

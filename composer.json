@@ -1,11 +1,11 @@
 {
-    "name": "snippetcms/snippet-settings",
-    "description": "SnippetCMS settings module for Laravel projects like SnippetCMS CMS",
+    "name": "pakpromo/laravel-settings",
+    "description": "PakPromo settings module for Laravel projects like SnippetCMS",
     "type": "package",
     "license": "MIT",
     "authors": [
         {
-            "name": "SnippetCMS",
+            "name": "PakPromo",
             "email": "snippetcms@gmail.com"
         }
     ],
@@ -19,21 +19,21 @@
     },
     "autoload": {
         "psr-4": {
-            "SnippetCMS\\SnippetSettings\\": "src"
+            "PakPromo\\LaravelSettings\\": "src"
         },
         "files": [
-            "src/snippet.php"
+            "src/functions.php"
         ]
     },
     "autoload-dev": {
         "psr-4": {
-            "SnippetCMS\\SnippetSettings\\Tests\\": "tests"
+            "PakPromo\\LaravelSettings\\Tests\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "SnippetCMS\\SnippetSettings\\SettingsServiceProvider"
+                "PakPromo\\LaravelSettings\\SettingsServiceProvider"
             ]
         }
     },

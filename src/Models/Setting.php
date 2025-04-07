@@ -1,6 +1,6 @@
 <?php
 
-namespace SnippetCMS\SnippetSettings\Models;
+namespace PakPromo\LaravelSettings\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;

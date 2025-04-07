@@ -1,8 +1,8 @@
 # Settings package for Laravel
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/SnippetCMS/settings.svg?style=flat-square)](https://packagist.org/packages/SnippetCMS/settings)
-[![Build Status](https://github.com/SnippetCMS/settings/actions/workflows/run-tests.yml/badge.svg)](https://github.com/SnippetCMS/settings/actions)
-[![Total Downloads](https://img.shields.io/packagist/dt/SnippetCMS/settings.svg?style=flat-square)](https://packagist.org/packages/SnippetCMS/settings)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/Pak-Promo/laravel-settings.svg?style=flat-square)](https://packagist.org/packages/Pak-Promo/laravel-settings)
+[![Build Status](https://github.com/Pak-Promo/laravel-settings/actions/workflows/run-tests.yml/badge.svg)](https://github.com/Pak-Promo/laravel-settings/actions)
+[![Total Downloads](https://img.shields.io/packagist/dt/Pak-Promo/laravel-settings.svg?style=flat-square)](https://packagist.org/packages/Pak-Promo/laravel-settings)
 
 This package allows you to save settings in DB & Cache. You can use helper function to get settings value anywhere in a Laravel project like SnippetCMS CMS.
 
@@ -17,7 +17,7 @@ This package allows you to save settings in DB & Cache. You can use helper funct
 Run the following command:
 
 ```bash
-composer require snippetcms/snippet-settings
+composer require pak-promo/laravel-settings
 ```
 
 ### 2. Publish
@@ -25,7 +25,7 @@ composer require snippetcms/snippet-settings
 Publish config file.
 
 ```bash
-php artisan vendor:publish --provider="SnippetCMS\SnippetSettings\SettingsServiceProvider" --tag=settings-config
+php artisan vendor:publish --provider="PakPromo\LaravelSettings\SettingsServiceProvider" --tag=settings-config
 ```
 
 ### 3. Preparing the database
@@ -33,7 +33,7 @@ php artisan vendor:publish --provider="SnippetCMS\SnippetSettings\SettingsServic
 You need to publish the migration to create the media table:
 
 ```bash
-php artisan vendor:publish --provider="SnippetCMS\SnippetSettings\SettingsServiceProvider" --tag=settings-migration
+php artisan vendor:publish --provider="PakPromo\LaravelSettings\SettingsServiceProvider" --tag=settings-migration
 ```
 
 After that, you need to run migrations.
@@ -44,7 +44,7 @@ php artisan migrate
 
 ### 4. Configure
 
-You can change the options of your app from `config/snippet-settings.php` file
+You can change the options of your app from `config/laravel-settings.php` file
 
 ## Usage
 
