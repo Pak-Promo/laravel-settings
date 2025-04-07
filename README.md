@@ -1,8 +1,8 @@
 # Settings package for Laravel
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/Pak-Promo/laravel-settings.svg?style=flat-square)](https://packagist.org/packages/Pak-Promo/laravel-settings)
 [![PHP Composer](https://github.com/Pak-Promo/laravel-settings/actions/workflows/php.yml/badge.svg)](https://github.com/Pak-Promo/laravel-settings/actions/workflows/php.yml)
-[![Total Downloads](https://img.shields.io/packagist/dt/Pak-Promo/laravel-settings.svg?style=flat-square)](https://packagist.org/packages/Pak-Promo/laravel-settings)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/pakpromo/laravel-settings.svg?style=flat-square)](https://packagist.org/packages/pakpromo/laravel-settings)
+[![Total Downloads](https://img.shields.io/packagist/dt/pakpromo/laravel-settings.svg?style=flat-square)](https://packagist.org/packages/pakpromo/laravel-settings)
 
 This package allows you to save settings in DB & Cache. You can use helper function to get settings value anywhere in a Laravel project like SnippetCMS.
 
