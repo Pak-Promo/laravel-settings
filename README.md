@@ -17,7 +17,7 @@ This package allows you to save settings in DB & Cache. You can use helper funct
 Run the following command:
 
 ```bash
-composer require pak-promo/laravel-settings
+composer require pakpromo/laravel-settings
 ```
 
 ### 2. Publish
@@ -51,19 +51,19 @@ You can change the options of your app from `config/laravel-settings.php` file
 ### Helper
 
 ```php
-setting()->get('foo');
-setting()->get('foo', 'default');
-setting()->put('foo', 'bar');
-setting()->delete('foo');
+setting()->get('promo');
+setting()->get('promo', 'default');
+setting()->put('promo', 'snippet');
+setting()->delete('promo');
 ```
 
 ### Facade
 
 ```php
-Setting::get('foo');
-Setting::get('foo', 'default');
-Setting::put('foo', 'bar');
-Setting::delete('foo');
+Setting::get('promo');
+Setting::get('promo', 'default');
+Setting::put('promo', 'snippet');
+Setting::delete('promo');
 ```
 
 ## Testing

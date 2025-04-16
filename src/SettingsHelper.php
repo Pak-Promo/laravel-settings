@@ -3,7 +3,7 @@
 namespace PakPromo\LaravelSettings;
 
 use Illuminate\Support\Facades\Storage;
-use SnippetCMS\SnippetSettings\Models\Setting;
+use PakPromo\LaravelSettings\Models\Setting;
 
 class SettingsHelper
 {
