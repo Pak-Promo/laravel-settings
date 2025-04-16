@@ -24,8 +24,8 @@ class SettingsHelper
             return $cache;
         }
 
-        $option = Setting::whereSettingOption($option)->first();
-        $value = optional($option)->setting_value;
+        $SettingOption = Setting::whereSettingOption($option)->first();
+        $value = optional($SettingOption)->setting_value;
 
         if ($default && !$value) {
             return $default;
